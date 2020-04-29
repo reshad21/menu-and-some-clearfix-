@@ -1,0 +1,82 @@
+.main{
+	width:100%;
+	border:3px solid #4CAF50;
+	padding:10px;
+	
+}
+.main p{
+	float:left;
+}
+
+.main img{
+	height:300px;
+	width:200px;
+	float:right;
+}
+.clearfix{
+	overflow:auto;
+}
+.bg_image{
+	background:url(img/flower.jpg) no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.main ul{
+	list-style:none;
+	
+}
+.main ul li{
+	float:left;
+	border:2px solid #37893A;
+	display:block;
+	border-right:0px;
+	background:#4CAF50;
+	box-shadow:1px 2px 3px;
+	width:129px;
+}
+.main ul li:last-child{
+	border-right:2px solid #37893A;
+}
+.main ul li a{
+	text-decoration:none;
+	display:block;
+	padding: 6px 33px;
+	color:#fff;
+	transition:all 0.4s ease;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+}
+.main ul li a:hover{
+	display:block;
+	background:#fff;
+	color:#37893A;
+}
+..main ul li{
+	position:relative;
+}
+.main ul li ul{
+	position:absolute;
+	left:-999999px;
+	
+}
+.main ul li:hover ul{
+	left:152px;
+	width:119px;
+	
+}
+.main ul li ul li{
+	float:none;
+	border-bottom:none;
+	border-right:2px solid #37893A;
+}
+.main ul li ul li:last-child{
+	border-bottom:2px solid #37893A;
+}
+.main ul li ul li a{}
+.main ul li ul li a:hover{}
+
+
+
+
+
